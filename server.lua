@@ -41,7 +41,7 @@ function renterdiscord(message)
             }, 
         }
     }
-  	PerformHttpRequest( "https://canary.discord.com/api/webhooks/827612874620796998/L1Vmh9EhTOGOJ8CFOnwB5hISXbQQQUQtVEg-5rvNrjokwnK7g55dQvnpuV7eYC7cEJmI" , function(err, text, headers) end, 'POST', json.encode({username = name, embeds = content}), { ['Content-Type'] = 'application/json' })
+  	PerformHttpRequest( "WEBHOOK" , function(err, text, headers) end, 'POST', json.encode({username = name, embeds = content}), { ['Content-Type'] = 'application/json' })
 end
 
 AddEventHandler("playerDropped", function(reason)
@@ -80,7 +80,7 @@ function rexitdiscord(message)
             }, 
         }
     }
-  	PerformHttpRequest( "https://canary.discord.com/api/webhooks/827612874620796998/L1Vmh9EhTOGOJ8CFOnwB5hISXbQQQUQtVEg-5rvNrjokwnK7g55dQvnpuV7eYC7cEJmI" , function(err, text, headers) end, 'POST', json.encode({username = name, embeds = content}), { ['Content-Type'] = 'application/json' })
+  	PerformHttpRequest( "WEBHOOK" , function(err, text, headers) end, 'POST', json.encode({username = name, embeds = content}), { ['Content-Type'] = 'application/json' })
 end
 
 
